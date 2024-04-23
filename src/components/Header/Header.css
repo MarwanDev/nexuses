@@ -1,0 +1,22 @@
+.health-header {
+  font-size: clamp(1.5rem, 48px, 55px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(90deg, #959086 0%, #3684b0 59.5%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center !important;
+  margin: auto;
+}
+
+@media screen and (max-width: 681px) {
+  .health-header {
+    font-size: clamp(1.5rem, 1.0744rem + 3.7956vw, 55px);
+  }
+
+  .header-img {
+    display: none;
+  }
+}

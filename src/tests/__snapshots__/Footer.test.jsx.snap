@@ -1,0 +1,127 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar > renders navbar correctly 1`] = `
+<nav
+  className="navbar-container"
+>
+  <img
+    alt="logo"
+    src="/src/assets/Nexuses_logo_0_002.webp"
+    style={
+      {
+        "height": 38,
+        "width": 100,
+      }
+    }
+  />
+  <ul
+    className="links-container"
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "justifyContent": "space-between",
+        "listStyleType": "none",
+        "textDecoration": "none",
+        "width": "40%",
+      }
+    }
+  >
+    <li>
+      <a
+        href="/"
+        onClick={[Function]}
+        style={
+          {
+            "color": "#3684B0",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Explore
+      </a>
+    </li>
+    <li>
+      <a
+        href="/doctors"
+        onClick={[Function]}
+        style={
+          {
+            "color": "#3684B0",
+            "textDecoration": "none",
+          }
+        }
+      >
+        My Doctors
+      </a>
+    </li>
+    <li>
+      <a
+        href="/med-history"
+        onClick={[Function]}
+        style={
+          {
+            "color": "#3684B0",
+            "textDecoration": "none",
+          }
+        }
+      >
+        My Medical History
+      </a>
+    </li>
+  </ul>
+  <div
+    className="navbar-menu"
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        {
+          "color": "#3684B0",
+          "fontSize": 25,
+        }
+      }
+      viewBox="0 0 512 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
+      />
+    </svg>
+  </div>
+</nav>
+`;
+
+exports[`footer > renders footer correctly 1`] = `
+<div
+  style={
+    {
+      "backgroundColor": "#101522",
+      "color": "#E9E2E2",
+      "display": "flex",
+      "flexDirection": "column",
+      "fontSize": 15,
+      "fontStyle": "normal",
+      "fontWeight": 700,
+      "lineHeight": "normal",
+      "marginTop": "auto",
+      "padding": "1.7rem",
+      "width": "100%",
+    }
+  }
+>
+  <h2>
+    @2024 MARWAN
+  </h2>
+  <h2>
+    ALL RIGHTS RESERVED
+  </h2>
+</div>
+`;

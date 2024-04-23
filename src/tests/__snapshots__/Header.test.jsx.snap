@@ -1,0 +1,67 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > renders Header correctly 1`] = `
+<div
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#282D39",
+      "borderRadius": 20,
+      "display": "flex",
+      "justifyContent": "space-between",
+      "marginTop": "1.5rem",
+      "padding": "2.5rem",
+      "width": "100%",
+    }
+  }
+>
+  <h1
+    className="health-header"
+  >
+    Health is Wealth
+  </h1>
+  <img
+    alt="header"
+    className="header-img"
+    src="/src/assets/children.png"
+    style={
+      {
+        "margin": "auto",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Navbar > renders navbar correctly 1`] = `
+<div
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#282D39",
+      "borderRadius": 20,
+      "display": "flex",
+      "justifyContent": "space-between",
+      "marginTop": "1.5rem",
+      "padding": "2.5rem",
+      "width": "100%",
+    }
+  }
+>
+  <h1
+    className="health-header"
+  >
+    Health is Wealth
+  </h1>
+  <img
+    alt="header"
+    className="header-img"
+    src="/src/assets/children.png"
+    style={
+      {
+        "margin": "auto",
+      }
+    }
+  />
+</div>
+`;

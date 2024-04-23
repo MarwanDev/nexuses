@@ -1,0 +1,20 @@
+.doctors-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100% !important;
+  justify-items: center;
+  align-items: center;
+  row-gap: 1.2rem;
+  margin: auto;
+}
+
+@media screen and (max-width: 1350px) {
+  .doctors-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 1.2rem;
+  }
+}
